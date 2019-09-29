@@ -30,7 +30,7 @@ public class Program {
     Employee harry = new Employee("Harry", 10000);
     harry.raiseSalary(10); // Harry gets a 10% raise.
     double harrysSalary = harry.getSalary();
-    System.out.printf("Name: %s, Salary: %f",harry.getName(),harry.getSalary());
+    System.out.printf("Name: %s , Salary: %f",harry.getName(),harry.getSalary());
     
     
     }
